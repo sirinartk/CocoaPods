@@ -51,9 +51,9 @@ group :development do
 
   # Code Quality
   gem 'inch_by_inch'
-  gem 'rubocop'
+  gem 'rubocop', '>= 0.51.0'
 
-  gem 'danger'
+  gem 'danger', '>= 5.3.1'
 end
 
 group :debugging do
